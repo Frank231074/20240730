@@ -70,7 +70,7 @@ else:
     for pref, cases in data.items():
         color = "red" if cases > 10000 else "yellow"
         prefecture_colors[pref] = color
-
+.
     plt.figure(figsize=(10, 10))
     plt.imshow(picture(prefecture_colors))
     plt.show()
